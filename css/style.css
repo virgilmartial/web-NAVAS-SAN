@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: titulos;
+    src: url(../fonts/albertus.ttf);
+}
+html {
+    font-size: 16px;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #111;
+}
+header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+.contenedor-logo {
+    width: 166px;
+    height: 166px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+.contenedor-logo img {
+    width: 75%;
+    position: relative;
+    bottom: 8px;
+}
+nav {
+    width: 90%;
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+nav a {
+    font-family: titulos;
+    font-size: 24px;
+    background-color: #34AED6;
+    color: #fff;
+    text-decoration: none;
+    width: 33.33%;
+    display: block;
+    text-align: center;
+    padding: 9px 0;
+    margin-right: 6px;
+}
+nav a:hover {
+    background-color: #044669;
+}
+nav a:last-child {
+    border-radius: 0 10px 10px 0;
+    margin-right: 0;
+}
+.banner {
+    background-image: url(../img/Depositphotos_12016749_original.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+    background-size: cover;
+    height: 420px;
+}
+.banner div {
+    width: 100%;
+    max-width: 483px;
+    min-width: 305px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .8);
+    text-align: center;
+    padding: 55px 42px;
+    margin-left: 10%;
+}
+.banner h1 {
+    margin-bottom: 40px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: titulos;
+    font-weight: lighter;
+}
+h1 {
+    font-size: 2.25em;
+    line-height: 2.81rem;
+}
+h2 {
+    font-size: 3.43em;
+    line-height: 5rem;
+}
+p {
+    font-size: 1em;
+    line-height: 1.5rem;
+}
+a {
+    color: #34AED6;
+}
+section {
+    padding: 90px 10%;
+}
+.caja-servicios {
+    width: 100%;
+    max-width: 690px;
+    display: flex;
+    flex-wrap: wrap;
+    clear: both;
+    margin-bottom: 40px;
+}
+.caja-servicios div:first-child{
+    width: 30%;
+    margin-right: 5%;
+    
+}
+.caja-servicios div:last-child{
+    width: 65%;
+}
+.elemDcha {
+    flex-direction: row-reverse;
+    float: right;
+}
+h2.subrayado {
+    text-align: center;
+    border-bottom: 10px solid #34AED6;
+    line-height: 1.6em;
+    width: 50%;
+    min-width: 295px;
+    margin: 0 auto;
+}
+form {
+    width: 40%;
+    min-width: 295px;
+    margin: 30px auto;
+}
+label, input {
+    display: block;
+}
+input, textarea  {
+    width: 100%;
+    border: 1px solid #707070;
+    border-radius: 2px;
+    padding: 20px 10px;
+    font-size: 1.1em;
+}
+textarea {
+    height: 100px;
+    padding: 10px;
+}
+input[type="checkbox"] {
+    width: initial;
+    display: inline;
+}
+input[type="checkbox"] + label {
+    display: initial;
+    font-size: .8em;
+}
+input[type="submit"]{
+    width: initial;
+}
+.btn {
+    background-color: #34AED6;
+    padding: 20px 30%;
+    font-size: 2em;
+    color: #fff;
+    font-family: titulos;
+    margin: 30px auto;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #044669;
+}
+
+footer {
+    background-color: #044669;
+}
+footer > div {
+    padding: 0 5%;
+    color: #fff;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+footer > div > div {
+    margin-top: 30px;
+}
+footer h4 {
+    font-size: 1.8em;
+    border-bottom: 2px solid;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+address {
+    margin: 20px 0;
+}
+footer > div div:nth-child(2) {
+    text-align: center;
+}
+footer > div div:nth-child(2) a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+footer > div > div:nth-child(2) a:first-of-type {
+    font-size: 2em;
+    font-weight: bold;
+}
+footer > div > div:nth-child(2) a:last-of-type {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+footer > div div:last-child {
+    text-align: right;
+}
+footer > div div:last-child a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+footer span {
+    background-color: #fff;
+    padding: 20px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}

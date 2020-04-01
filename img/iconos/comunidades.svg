@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00b0d3;
+      }
+
+      .cls-2 {
+        fill: #4e4d4d;
+      }
+    </style>
+  </defs>
+  <title>comunidades</title>
+  <g id="Capa_2" data-name="Capa 2">
+    <g id="Icon">
+      <g>
+        <polygon class="cls-1" points="6 30 23 30 23 34 25 34 25 30 42 30 42 34 44 34 44 28 25 28 25 24 23 24 23 28 4 28 4 34 6 34 6 30"/>
+        <g>
+          <path class="cls-2" d="M17,0V22h6V19h2v3h6V0Zm4,16H19V14h2Zm0-4H19V10h2Zm0-4H19V6h2Zm0-4H19V2h2Zm4,12H23V14h2Zm0-4H23V10h2Zm0-4H23V6h2Zm0-4H23V2h2Zm4,12H27V14h2Zm0-4H27V10h2Zm0-4H27V6h2Zm0-4H27V2h2Z"/>
+          <path class="cls-2" d="M0,36V48H4V46H6v2h4V36Zm4,8H2V42H4Zm0-4H2V38H4Zm4,4H6V42H8Zm0-4H6V38H8Z"/>
+          <path class="cls-2" d="M19,36V48h4V46h2v2h4V36Zm4,8H21V42h2Zm0-4H21V38h2Zm4,4H25V42h2Zm0-4H25V38h2Z"/>
+          <path class="cls-2" d="M38,36V48h4V46h2v2h4V36Zm4,8H40V42h2Zm0-4H40V38h2Zm4,4H44V42h2Zm0-4H44V38h2Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
